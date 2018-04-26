@@ -1,0 +1,13 @@
+<div class="listing-page" >
+
+  <div class="item-card" *ngFor="let onFlight of flightList | paginate: { itemsPerPage: 3, currentPage: page }">
+    
+    <app-flight-deatils [id]="onFlight.id" [trial]="onFlight.trial" [fromName]="onFlight.fromAiroportNAme" [fromCountry]="onFlight.fromCountry"
+    [toName]="onFlight.toAirport" [toCountry]="onFlight.toCountry" ></app-flight-deatils>
+  </div>
+  <div class="pager">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+</div>
+
+

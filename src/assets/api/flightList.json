@@ -1,0 +1,123 @@
+[
+  {
+    "id": 12654,
+    "trial": "152483",
+    "fromAiroportNAme":"Saarbrucken Airport",
+    "airportShortcut":"SCN",
+    "airportNo":"022458568",
+    "terminal":"Gate 1",
+    "fromCountry":"Germany",
+    "toAirport":"Copenhagen",
+    "toCountry":"Denmark",
+    "status":"on"
+  },
+  {
+    "id": 13542,
+    "trial": "152484",
+    "fromAiroportNAme":"Sabadell Airport",
+    "airportShortcut":"QSA",
+    "airportNo":"022458420",
+    "terminal":"Gate 4",
+    "fromCountry":"Spain",
+    "toAirport":"Copenhagen",
+    "toCountry":"Denmark",
+    "status":"on"
+  },
+  {
+    "id": 12542,
+    "trial": "142484",
+    "fromAiroportNAme":"Sabelli Airport",
+    "airportShortcut":"BZO",
+    "airportNo":"035458420",
+    "terminal":"Gate 12",
+    "fromCountry":"Italy",
+    "toAirport":"JFK Airport",
+    "toCountry":"USA",
+    "status":"off"
+  }, 
+   {
+    "id": 110252,
+    "trial": "254156",
+    "fromAiroportNAme":"Saigon Airport",
+    "airportShortcut":"SGN",
+    "airportNo":"05856620",
+    "terminal":"Gate 13",
+    "fromCountry":"Vietnam",
+    "toAirport":"BZO Airport",
+    "toCountry":"Italy",
+    "status":"off"
+  },
+  {
+    "id": 542541,
+    "trial": "124562",
+    "fromAiroportNAme":"Saint Brieuc - Armor Airport",
+    "airportShortcut":"SBK",
+    "airportNo":"05856620",
+    "terminal":"Gate 11",
+    "fromCountry":"France",
+    "toAirport":"SGN Airport",
+    "toCountry":"Vietnam",
+    "status":"on"
+  },
+  {
+    "id": 542541,
+    "trial": "124562",
+    "fromAiroportNAme":"Saint-Denis - Roland Garros Airport",
+    "airportShortcut":"RUN",
+    "airportNo":"05855820",
+    "terminal":"Gate 1",
+    "fromCountry":"Reunion",
+    "toAirport":"St Gallen Airport",
+    "toCountry":"Switzerland",
+    "status":"on"
+  },
+  {
+    "id": 856541,
+    "trial": "654262",
+    "fromAiroportNAme":"St Paul International Airport",
+    "airportShortcut":"MSP",
+    "airportNo":"05855820",
+    "terminal":"Gate 0",
+    "fromCountry":"USA",
+    "toAirport":"Sainte Catherine Airport",
+    "toCountry":"France",
+    "status":"on"
+  },
+  {
+    "id": 432541,
+    "trial": "654262",
+    "fromAiroportNAme":"St Mary´s Airport",
+    "airportShortcut":"ICS",
+    "airportNo":"05895452",
+    "terminal":"Gate A",
+    "fromCountry":"UK",
+    "toAirport":"Salem Airport",
+    "toCountry":"SXV",
+    "status":"on"
+  },
+  {
+    "id": 542581,
+    "trial": "645862",
+    "fromAiroportNAme":"Salto Airport",
+    "airportShortcut":"STY",
+    "airportNo":"8855820",
+    "terminal":"Gate C",
+    "fromCountry":"Uruguay",
+    "toAirport":"Salta International Airport",
+    "toCountry":"Argentine",
+    "status":"on"
+  },
+  {
+    "id": 246810,
+    "trial": "5698542",
+    "fromAiroportNAme":"Szwederowo",
+    "airportShortcut":"BZG",
+    "airportNo":"89562422",
+    "terminal":"Gate 5",
+    "fromCountry":"Poland",
+    "toAirport":"Sainte Catherine Airport",
+    "toCountry":"France",
+    "status":"off"
+  }
+  
+]

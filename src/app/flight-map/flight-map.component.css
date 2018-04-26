@@ -1,0 +1,9 @@
+.flight-track-map{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url("../../assets/images/02-Flight_Tracking_Flight_List_Closed_02.png")no-repeat;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}

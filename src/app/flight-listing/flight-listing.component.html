@@ -1,0 +1,22 @@
+<mat-tab-group>
+  <mat-tab>
+    <ng-template mat-tab-label>Flights</ng-template>
+    <!-->Content-->
+    <div *ngFor="let onFlight of onList |slice:0:3" >
+    
+    <app-flight-deatils [id]="onFlight.id" [trial]="onFlight.trial" [fromName]="onFlight.fromAiroportNAme" [fromCountry]="onFlight.fromCountry"
+    [toName]="onFlight.toAirport" [toCountry]="onFlight.toCountry" ></app-flight-deatils>
+  </div>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      Error Flights ({{offCount}})
+    </ng-template>
+    <div *ngFor="let offFlight of errorList  |slice:0:3" >
+       
+        <app-flight-deatils [id]="offFlight.id" [trial]="offFlight.trial" [fromName]="offFlight.fromAiroportNAme" [fromCountry]="offFlight.fromCountry"
+    [toName]="offFlight.toAirport" [toCountry]="offFlight.toCountry" ></app-flight-deatils>
+
+  </div>
+  </mat-tab>
+</mat-tab-group>

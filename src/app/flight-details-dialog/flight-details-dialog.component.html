@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>{{data.name}} </h1>
+<div mat-dialog-content>
+  <p class="item-wrapper">
+    <span class="txt_secondary-clr">Short Name: </span>
+    <span>{{data.shortName}}</span>
+  </p>
+  <p class="item-wrapper">
+    <span class="txt_secondary-clr">Phone No.: </span>
+    <span>{{data.phone}}</span>
+  </p>
+  <p class="item-wrapper">
+    <span class="txt_secondary-clr">terminal: </span>
+    <span >{{data.terminal}}</span>
+  </p>
+  <p class="item-wrapper">
+    <span class="txt_secondary-clr" >Country: </span>
+    <span>{{data.country}}</span>
+  </p>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="onNoClick()">Cancel</button>
+
+</div>

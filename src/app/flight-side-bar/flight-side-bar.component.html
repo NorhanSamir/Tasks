@@ -1,0 +1,11 @@
+<div class="side-bar" [ngClass]="{'list-open':isOpen}">
+  <a class="item-link" (click)="checkOpenOrClose()">
+    <span [ngClass]="isOpen ? 'icon-close' : 'icon-left-arrow'"></span>
+  </a>
+  <a class="item-link"  routerLink="/flightListing" routerLinkActive="active">
+    <span class="icon-full-screen"></span>
+  </a>
+</div>
+<div class="listing-container" [ngClass]="{'list-open':isOpen}">
+  <app-flight-listing></app-flight-listing>
+</div> 

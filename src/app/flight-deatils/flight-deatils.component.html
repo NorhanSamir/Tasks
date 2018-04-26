@@ -1,0 +1,31 @@
+<div class="flight-details-container">
+  <!--Filght deatils row-->
+  <div class="flight-details-row">
+    <div class="flex-cell">
+      <p>Flight ID</p>
+      <p class="bold">{{id}}</p>
+    </div>
+    <div class="flex-cell txt-end txt-start-xs">
+      <p>Trial</p>
+      <p class="bold">{{trial}}</p>
+    </div>
+  </div>
+
+  <!--Filght deatils row with separator-->
+  <div class="flight-details-row vertical-line">
+    <div class="flex-cell dotted red">
+      <p>{{fromName}}</p>
+      <p class="txt_grey-clr">{{fromCountry}}</p>
+    </div>
+    <div class="flex-cell txt-end mr-auto">
+      <button mat-raised-button color="primary" (click)="openDialog()">Airport Info</button>
+    </div>
+
+  </div>
+  <!--Filght deatils destination row-->
+  <div class="flight-details-row padd-t10 bordered">
+    <div class="flex-cell dotted green">
+      <p>{{toName}}</p>
+      <p class="txt_grey-clr">{{toCountry}}</p>
+    </div>
+  </div>

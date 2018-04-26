@@ -1,0 +1,77 @@
+.flight-details-container{
+    padding-top: 25px
+}
+ .flight-details-container .flight-details-row{
+    display: flex;
+    position: relative
+}
+ .flight-details-container .flight-details-row .flex-cell{
+     width: 50%;
+    justify-content: center;
+     flex-direction: column;
+}
+ .flight-details-container .flight-details-row .flex-cell p{
+    margin: 0 0 10px 0;
+    line-height: 1em;
+    font-size: .875em;
+}
+ .flight-details-container .flight-details-row .dotted{
+    padding-left: 30px;
+    position: relative
+}
+ .flight-details-container .flight-details-row .dotted:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    z-index: 1
+}
+ .flight-details-container .flight-details-row .red:before{
+    background-color: #e74c3c;
+}
+ .flight-details-container .flight-details-row .green:before{
+    background-color: #56dc9c
+}
+ .flight-details-row.vertical-line:before{
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    height: 100%;
+    width: 14.5px;
+    border-right: 2px solid #fff
+}
+ .flight-details-container .flight-details-row:nth-child(2):after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #464652;
+    width: calc(100% - 30px)
+}
+ .flight-details-container .flight-details-row:nth-child(2){
+    padding-bottom: 10px
+}
+ .padd-t10{
+    padding-top: 10px
+}
+ .bordered{
+    border-bottom: 1px solid #464652;
+}
+/*Small screen media query*/
+ @media only screen and (max-width: 600px) {
+    .flight-details-container .flight-details-row{
+        display: block
+    }
+    .flight-details-container .flight-details-row  .flex-cell{
+        width:100%
+    }
+     .txt-start-xs{
+        padding: 10px 0;
+        text-align: left;
+    }
+}
+ 

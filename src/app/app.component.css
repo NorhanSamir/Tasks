@@ -1,0 +1,7 @@
+.content-section{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    height: calc(100% - 60px);
+    width: calc(100vw - 50px);
+}
